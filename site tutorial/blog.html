@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>university website design</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <script src="https://kit.fontawesome.com/b62766c4e7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section class="sub-Header">
+    <nav>
+      <a href="index.html"><img src="eduford_img\logo.png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Certificates & Online Programs For 2021</h1>
+  </section>
+  <!------ Blog Page Content -------->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="eduford_img\certificate.jpg" alt="certificate">
+        <h2>Our Certificates & Online Programs For 2021</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Orci a scelerisque purus semper. Diam donec adipiscing tristique
+          risus nec feugiat.</p>
+        <div class="comment-box">
+          <h3>Leave A Comment</h3>
+          <form class="comment-form" action="index.html" method="post">
+            <input type="text" name="" value="" placeholder="Enter Name">
+            <input type="email" name="" value="" placeholder="Enter Email">
+<textarea name="name" rows="5" cols="50" placeholder="Your Comment"></textarea>
+<button type="submit" name="button" class="hero-btn red-btn">POST COMMENT</button>
+                 </form>
+        </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div class="">
+          <span>Business Analytics</span>
+          <span>21</span>
+        </div>
+        <div class="">
+          <span>Computer Science</span>
+          <span>30</span>
+        </div>
+        <div class="">
+          <span>Journalism</span>
+          <span>50</span>
+        </div>
+        <div class="">
+          <span>Commerce</span>
+          <span>1023</span>
+        </div>
+        <div class="">
+          <span>Autocad</span>
+          <span>490</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      Orci a scelerisque purus semper.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made following Easy Tutorials
+      <i class="fa fa-heart-o"></i>
+    </p>
+  </section>
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
